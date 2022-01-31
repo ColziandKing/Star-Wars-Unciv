@@ -1,0 +1,40 @@
+[
+  {
+		"name": "Mandalore",
+		"leaderName": "Din Djarin",
+		"adjective": ["Mandalorian"],
+		"startBias": ["Grassland"],
+  	        "preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "Yo, Mando. So now, your gonna rule over all your people of Mandalore? Ever since you defeated Moff Gideon and won the darksaber, Bo Katan Kryze now wants you lead the new Mandalore.",
+		"startIntroPart2": "Mando, I mean Din Djarin. Are you up for the battle to restore Mandalore?",
+
+		"declaringWar": "I could bring you in warm or I could bring you in cold?",
+		"attacked": "Dang Ferrick!",
+		"defeated":  "I guess this is the way.",
+		"introduction":  "Greetings! I am a Mandalorian, you can hire us for work.",
+		"neutralHello": "I'm on a bounty.",
+		"hateHello": "You have the guts to meet me?!",
+		"tradeRequest": "Hey, I think we can agree on this",
+
+	        "outerColor": [3,21,0],
+		"innerColor": [2,5,0],
+
+		"uniqueName": "This is the Way",
+		"uniques": ["67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment", "[-25]% maintenance costs <for [Land] units>"], "[-66]% maintenance costs <for [Water] units>",
+			"50% chance of capturing defeated Barbarian naval units and earning 25 Gold"],
+		"cities": ["Sundari", "Keldabe", "Enceri", "Norg Bral", "Clan Wren", "Kryze", "Bralsin", "Shuror"],
+	},    
+    {
+      "name": "Sith Empire"
+      "leader name": "Darth Bane"
+      "
+    },
+   {
+     "name": "Galactic Republic"
+     "leader name": "Chancellor "
+   },
+    [
+      "name": "Galactic Empire"
+      "leader name": "Emperor Palpatine"
+]
