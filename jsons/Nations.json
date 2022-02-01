@@ -28,7 +28,27 @@
     {
       "name": "Sith Empire"
       "leader name": "Darth Bane"
-      "
+      "adjective": ["Sith"],
+		"startBias": ["Grassland"],
+  	        "preferredVictoryType": "Diplomatic",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated":  "",
+		"introduction":  "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+
+	        "outerColor": [192,192,192],
+		"innerColor": [0,0,0],
+
+		"uniqueName": "",
+		"uniques": "",
+		"cities": [""],
     },
    {
      "name": "Galactic Republic"
