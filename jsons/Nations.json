@@ -150,4 +150,29 @@
 		"uniques": ["[+30]% Strength <when fighting units from a Civilization with more Cities than you>", "Retain [50]% of the happiness from a luxury after the last copy has been traded away"],
 		"cities": ["First Light", "Dathomir", "Vermillion", "Cantonica", "Savareen", "Vandor", "Jekara"],
      },
+    {
+      "name": "Pyke Syndicate",
+      "leader name": "Emperor Palpatine",
+	    "adjective": ["Sith"],
+		"startBias": ["Grassland"],
+  	        "preferredVictoryType": "Domination",
+
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "",
+		"attacked": "",
+		"defeated":  "",
+		"introduction":  "",
+		"neutralHello": "",
+		"hateHello": "",
+		"tradeRequest": "",
+
+	        "outerColor": [192,192,192],
+		"innerColor": [0,0,0],
+
+		"uniqueName": "",
+		"uniques": [""],
+		"cities": [""],
+    },
 ]
