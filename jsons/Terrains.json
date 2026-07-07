@@ -1,0 +1,52 @@
+[
+	{
+		"name": "Oceania Beach",
+		"type": "Land",
+		"food": 2,
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [247, 234, 151],
+		"uniques": ["Grassland","Doesn't generate naturally"]
+	},
+	{
+		"name": "Oceania Jungle",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 2,
+		"RGB": [81, 153, 69],
+		"uniques": ["Jungle","Doesn't generate naturally"]
+	},
+	{
+		"name": "Oceania Desert",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [245, 129, 71],
+		"uniques": ["Desert","Hill","Doesn't generate naturally"]
+	},
+	{
+		"name": "Oceania Tropical Mountain",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [36, 35, 34],
+		"uniques": ["Hill","Doesn't generate naturally"]
+	},
+	{
+		"name": "Oceania Desert Mountain",
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [36, 35, 34],
+		"uniques": ["Hill","Doesn't generate naturally"]
+	},
+	{
+		"name": "Fresh Water Desert",
+		"type": "Land",
+		"food": 1,
+		"production": 2,
+		"movementCost": 1,
+		"RGB": [230, 172, 0],
+		"uniques": ["Fresh water","Doesn't generate naturally"]
+	}
+]

@@ -1,0 +1,283 @@
+[	
+	{
+		"name": "Opal",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Oceania Beach","Oceania Jungle","Oceania Desert"],
+		"gold": 2,
+		"improvement": "Mine",
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Basalt",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Oceania Beach","Oceania Jungle","Oceania Desert"],
+		"gold": 1,
+		"improvement": "Mine",
+        "uniques": ["Marble"],
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Phosphate",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Oceania Beach","Oceania Jungle","Oceania Desert"],
+		"food": 2,
+		"improvement": "Plantation",
+		"revealedBy": "Fertilizer",
+		"improvementStats": {"food": 2}
+	},
+	{
+		"name": "Cassowary",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Oceania Beach"],
+		"food": 1,
+		"improvement": "Camp",
+        "uniques": ["Deer"],
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Emu",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Oceania Jungle"],
+		"food": 1,
+		"improvement": "Camp",
+        "uniques": ["Horses"],
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Kiwi",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Oceania Jungle"],
+		"food": 1,
+		"improvement": "Camp",
+        "uniques": ["Horses"],
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Kangaroo",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Oceania Desert"],
+		"food": 1,
+		"improvement": "Camp",
+        "uniques": ["Cattle"],
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Coconut Palm",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Oceania Beach"],
+		"food": 1,
+		"improvement": "Camp",
+        "uniques": ["Bananas"],
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Mola",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Spondylus",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Ivory Carving",
+		"resourceType": "Luxury"
+	},
+    {
+		"name": "Wool",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Enamelware",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Chicha",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Cheese",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Relic",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Mot",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Mushroom",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Tin",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Soma",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Rum",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Muiraquitã",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Maple Syrup",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Yaupon Tea",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Sea Cucumber",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Bush Bread",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Ware",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Mbari",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Terracotta Sculpture",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Pufferfish",
+		"uniques":["Not shown on world screen <without [Pufferfish]>"],
+		"resourceType": "Strategic"
+	},
+    {
+		"name": "Vanilla",
+		"resourceType": "Luxury"
+	},
+    {
+		"name": "Tea",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Ochre",
+		"resourceType": "Luxury"
+	},
+    {
+		"name": "Uro",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Possum Skin Cloak",
+		"resourceType": "Luxury"
+	},
+	{
+		"name": "Bison",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Plains","Grassland"],
+		"food": 1,
+		"improvement": "Camp",
+        "uniques": ["Generated on every [15] tiles <in [Plains] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"],
+		"improvementStats": {"production": 1}
+	},
+	{
+		"name": "Llao Llao",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Grassland"],
+		"food": 1,
+		"improvement": "Plantation",
+        "uniques": ["Generated on every [15] tiles <in [Grassland] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"],
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Dogo Canario",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Hill"],
+		"food": 1,
+		"improvement": "Camp",
+        "uniques": ["Generated on every [15] tiles <in [Hill] tiles> <in tiles without [Forest]> <in tiles without [Jungle]>"],
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Kelp",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast"],
+		"food": 1,
+		"improvement": "Fishing Boats",
+        "uniques": ["Generated on every [15] tiles <in [Coast] tiles>"],
+		"improvementStats": {"food": 1}
+	},
+	{
+		"name": "Nomad Manpower",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Nomad Manpower]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Caravan",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Nomad Manpower]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Desert Nomads",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Nomad Manpower]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Goods",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Nomad Manpower]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Racism",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Racism]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Iroijlaplap Points",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Iroijlaplap Points]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Mountain Wisdom",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Mountain Wisdom]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Reduced Head",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Reduced Head]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Multan Envoy",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Multan Envoy]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Ravi Envoy",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Ravi Envoy]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Jhelum Envoy",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Jhelum Envoy]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Indus Envoy",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Indus Envoy]>","Cannot be traded","Stockpiled"]
+	},
+	{
+		"name": "Punjab Envoy",
+		"resourceType": "Strategic",
+		"uniques":["Not shown on world screen <without [Punjab Envoy]>","Cannot be traded","Stockpiled"]
+	}
+]

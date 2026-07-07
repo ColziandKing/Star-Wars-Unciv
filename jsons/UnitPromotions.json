@@ -1,0 +1,227 @@
+[
+{
+"name": "For The Daimyo!",
+"uniques": ["Can move after attacking","All adjacent units heal [1] HP when healing"]
+},
+{
+"name": "Shimazu Clan",
+"uniques": ["[+5]% XP gained from combat",
+    "[This Unit] gains the [For The Daimyo!] status for [6] turn(s)"]
+},
+{
+"name": "Bregada Ability",
+"uniques":["Comment [Enables 4 unique promotions.]"]
+},
+{
+"name": "Mantrijero",
+"prerequisites": ["Bregada Ability"],
+"uniques": ["This Promotion is free","[+25]% Strength <when fighting in [Open terrain] tiles> <when attacking>",
+"Only available <for units without [Nyutra]>","Only available <for units without [Wirabraja]>","Only available <for units without [Dhaeng]>"]
+},
+{
+"name": "Nyutra",
+"prerequisites": ["Bregada Ability"],
+"unitTypes": ["Gunpowder"],
+"uniques": ["This Promotion is free","[+35]% Strength <when defending> <vs [Ranged] units>",
+"Only available <for units without [Mantrijero]>","Only available <for units without [Wirabraja]>","Only available <for units without [Dhaeng]>"]
+},
+{
+"name": "Wirabraja",
+"prerequisites": ["Bregada Ability"],
+"unitTypes": ["Gunpowder"],
+"uniques": ["This Promotion is free","[+35]% Strength <when defending> <vs [Mounted] units>",
+"Only available <for units without [Nyutra]>","Only available <for units without [Mantrijero]>","Only available <for units without [Dhaeng]>"]
+},
+{
+"name": "Dhaeng",
+"prerequisites": ["Bregada Ability"],
+"unitTypes": ["Gunpowder"],
+"uniques": ["This Promotion is free","[+1] Movement",
+"Only available <for units without [Nyutra]>","Only available <for units without [Wirabraja]>","Only available <for units without [Mantrijero]>"]
+},
+{
+"name": "River Capture",
+"uniques": ["May capture killed [Wounded] units <when fighting in [River] tiles>"]
+},
+{
+"name": "Random Promotion Upon Combat",
+"uniques": ["[This Unit] gains the [Volley] promotion <upon entering combat> <with [5]% chance>",
+"[This Unit] gains the [Indirect Fire] promotion <upon entering combat> <with [5]% chance>",
+"[This Unit] gains the [Formation I] promotion <upon entering combat> <with [5]% chance>",
+"[This Unit] gains the [Blitz] promotion <upon entering combat> <with [5]% chance>",
+"[This Unit] gains the [Woodsman] promotion <upon entering combat> <with [5]% chance>",
+"[This Unit] gains the [Amphibious] promotion <upon entering combat> <with [5]% chance>",
+"[This Unit] gains the [Scouting I] promotion <upon entering combat> <with [5]% chance>"]
+},
+{
+"name": "Jungle Expertise",
+"uniques": ["[This Unit] heals [5] HP <upon ending a turn in a [Jungle] tile>","[-10]% Strength for enemy [Wounded] units in adjacent [Land] tiles","[-10]% Strength for enemy [Wounded] units in adjacent [Jungle] tiles"]
+},
+{
+"name": "Thracian Orphism",
+"uniques": ["[+50]% XP gained from combat",
+    "Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]"]
+},
+{
+"name": "Adriatic Pirate",
+"uniques": ["Earn [70]% of killed [Military] unit's [Strength] as [Culture]"]
+},
+{
+"name": "[Ya] Ability",
+"uniques": ["Free Great Person <upon damaging a [Great General] unit>",
+"Free Great Person <upon defeating a [Great General] unit>"]
+},
+{
+"name": "[The Haush] Ability",
+"uniques": ["Empire enters a [5]-turn Golden Age <upon being promoted>"]
+},
+{
+"name": "Tortured",
+"innerColor": [33, 33, 30],
+"outerColor": [255, 68, 61],
+"uniques": ["[+1] Movement"]
+},
+{
+"name": "Additional Movement",
+"uniques": ["[+1] Movement"]
+},
+{
+"name": "Unavailable",
+"innerColor": [33, 33, 30],
+"outerColor": [255, 68, 61],
+"uniques": ["Cannot move"]
+},
+{
+"name": "Cushoon Rocket",
+"uniques": ["[+25]% Strength <when attacking>","[+5]% Strength <vs cities>"]
+},
+{
+"name": "Poisonous",
+"innerColor": [33, 33, 30],
+"outerColor": [84, 222, 29],
+"uniques": ["[+25]% Strength <vs [Wounded] units>"]
+},
+{
+"name": "Charged Attack",
+"uniques": ["[+25]% Strength <when attacking>"]
+},
+{
+"name": "Philippine Clan",
+"uniques": ["Gain [12] [Culture] <upon being defeated>"]
+},
+{
+"name": "Digger",
+"uniques": ["[+15]% Strength <when fighting in [Coastal] tiles> <when attacking>","[+15]% Strength <when fighting in [Friendly Land] tiles> <when attacking>"]
+},
+{
+"name": "Massacre",
+"uniques": ["[+1] Movement","[+15]% Strength <when attacking>","No defensive terrain penalty","May capture killed [Wounded] units <with [5]% chance>"]
+},
+{
+"name": "[The Utes] Ability",
+"uniques": ["No defensive terrain penalty"]
+},
+{
+"name": "[Dragoon] Ability",
+"uniques": ["[+50]% Strength <vs [Lancer] units>"]
+},
+{
+"name": "Coastal Movement",
+"uniques": ["Double movement in [Fresh Water]"]
+},
+{
+"name": "Altitude Training",
+"uniques": ["Double movement in [Hill]","Can pass through impassable tiles"]
+},
+{
+"name": "Capture I",
+"unitTypes": ["Civilian"],
+"uniques": ["May capture killed [Wounded] units <with [30]% chance>"]
+},
+{
+"name": "Capture II",
+"prerequisites": ["Capture I"],
+"unitTypes": ["Civilian"],
+"uniques": ["May capture killed [Wounded] units <with [60]% chance>"]
+},
+{
+"name": "Damage I",
+"unitTypes": ["Civilian"],
+"uniques": ["[+25]% Strength"]
+},
+{
+"name": "Damage II",
+"prerequisites": ["Damage I"],
+"unitTypes": ["Civilian"],
+"uniques": ["[+25]% Strength"]
+},
+{
+"name": "Damage III",
+"prerequisites": ["Damage II"],
+"unitTypes": ["Civilian"],
+"uniques": ["[+25]% Strength"]
+},
+{
+"name": "Arsonist I",
+"unitTypes": ["Civilian"],
+"uniques": ["[+25]% Strength <vs cities>"]
+},
+{
+"name": "Arsonist II",
+"prerequisites": ["Arsonist I"],
+"unitTypes": ["Civilian"],
+"uniques": ["[This Unit] heals [5] HP <upon ending a turn in a [Enemy] tile>","No movement cost to pillage"]
+},
+{
+"name": "Arsonist III",
+"prerequisites": ["Arsonist II"],
+"unitTypes": ["Civilian"],
+"uniques": ["[This Unit] heals [7] HP <upon ending a turn in a [Enemy] tile>","[+15]% Strength <vs cities>"]
+},
+{
+"name": "Anti Cavalry I",
+"unitTypes": ["Civilian"],
+"uniques": ["[+35]% Strength <vs [Mounted] units>","[+35]% Strength <vs [Armored] units>"]
+},
+{
+"name": "Anti Cavalry II",
+"prerequisites": ["Arsonist I"],
+"unitTypes": ["Civilian"],
+"uniques": ["[+35]% Strength <vs [Mounted] units>","[+35]% Strength <vs [Armored] units>"]
+},
+{
+"name": "Anti Cavalry III",
+"prerequisites": ["Arsonist II"],
+"unitTypes": ["Civilian"],
+"uniques": ["[+35]% Strength <vs [Mounted] units>","[+35]% Strength <vs [Armored] units>"]
+},
+{
+"name": "Skirmish",
+"unitTypes": ["Civilian"],
+"uniques": ["Can move after attacking"]
+},
+{
+"name": "Sami People",
+"uniques": ["[+15]% Strength <when fighting in [Tundra] tiles> <when attacking>","[+15]% Strength <when fighting in [Snow] tiles> <when attacking>","[+15]% Strength <when fighting in [Forest] tiles> <when attacking>","[+1] Sight"]
+},
+{
+"name": "Mountain Lifestyle",
+"uniques": ["[This Unit] heals [50] HP <upon ending a turn in a [Mountain] tile>","[This Unit] heals [25] HP <upon ending a turn in a [Hill] tile> <for [Tibet] Civilizations>"]
+},
+{
+"name": "[The Palawa] Ability",
+"uniques": ["[This Unit] heals [2] HP <upon ending a turn in a [Enemy] tile>","No movement cost to pillage"]
+},
+{
+"name": "Ouboutou",
+"uniques": ["[+15]% Strength <vs [Wounded] units>", "[+15]% Strength <vs cities>"]
+},
+{
+"name": "Camel Odor",
+"uniques": ["[+20]% Strength <vs [Mounted] units>"]
+},
+{
+"name": "Magyar Knight",
+"uniques": ["[+25]% Strength <vs [Sword] units>", "[+10]% Strength <vs [Wounded] units>", "[+10]% Strength <vs cities>"]
+}
+]

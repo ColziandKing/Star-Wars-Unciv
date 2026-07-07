@@ -1,0 +1,686 @@
+[
+	{
+		"name": "Siida",
+		"uniqueTo": "The Sámi",
+		"terrainsCanBeBuiltOn": ["Tundra","Snow"],
+        "techRequired": "Trapping",
+		"turnsToBuild": 7,
+		"uniques":["[+1 Food, +1 Production] <after adopting [Mercantilism]>","[+2 Gold] <after discovering [Biology]>","[+1 Gold] from [Snow] tiles",
+		"[+1 Food] for each adjacent [City center]"]
+    },
+	{
+		"name": "Solar and Moon Stone Calendars",
+		"uniqueTo": "The Cañari",
+		"terrainsCanBeBuiltOn": ["Land"],
+        "techRequired": "Calendar",
+		"turnsToBuild": 7,
+		"uniques":["[+2 Culture, +1 Faith] for each adjacent [City center]","Must be next to [City center]"]
+    },
+	{
+		"name": "Whalebone House",
+		"uniqueTo": "The Thule",
+		"terrainsCanBeBuiltOn": ["Land"],
+        "techRequired": "Optics",
+		"turnsToBuild": 7,
+		"uniques":["[+1 Food, +1 Production] for each adjacent [Fishing Boats]","[+1 Culture, +1 Faith] for each adjacent [Whales]"]
+    },
+	{
+		"name": "Kūmara Field",
+		"uniqueTo": "Maori",
+        "replaces": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": [
+		"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Conkerberry",
+		"uniqueTo": "The Bunuba",
+        "replaces": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": [
+		"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Ger Kharuul",
+		"uniqueTo": "Tuva",
+		"terrainsCanBeBuiltOn": ["Land"],
+        "techRequired": "Trapping",
+		"turnsToBuild": 7,
+		"production":1,
+		"uniques":["[+1 Faith] for each adjacent [City center]","Gives a defensive bonus of [20]%"]
+    },
+	{
+		"name": "Joglo",
+		"uniqueTo": "Yogyakarta",
+		"terrainsCanBeBuiltOn": ["Land"],
+        "techRequired": "Construction",
+		"turnsToBuild": 7,
+		"uniques":["[+2 Food] for each adjacent [Plantation]","[-8 Food] for each adjacent [Joglo]"]
+    },
+	{
+		"name": "Kudurru",
+		"uniqueTo": "The Kassites",
+		"terrainsCanBeBuiltOn": ["Land","Hill"],
+        "techRequired": "Writing",
+		"turnsToBuild": 7,
+		"culture":2,
+		"happiness":1,
+		"uniques":["[-2 Culture] for each adjacent [Kudurru]","[+1 Happiness] <in cities with a major religion>"]
+    },
+	{
+		"name": "Taramandal Pet",
+		"uniqueTo": "Mysore",
+		"terrainsCanBeBuiltOn": ["Land","Hill"],
+        "techRequired": "Gunpowder",
+		"turnsToBuild": 7,
+		"uniques":["Gives a defensive bonus of [20]%"]
+    },
+	{
+		"name": "Baglio",
+		"uniqueTo": "Sicily",
+		"terrainsCanBeBuiltOn": ["Land","Hill"],
+        "techRequired": "Guilds",
+		"production":1,
+		"turnsToBuild": 7,
+		"uniques":["[+1 Food] for each adjacent [Farm]","[+1 Gold] for each adjacent [Plantation]"]
+    },
+	{
+		"name": "Mong",
+		"uniqueTo": "Shan",
+		"terrainsCanBeBuiltOn": ["Hill"],
+        "techRequired": "Chivalry",
+		"turnsToBuild": 7,
+		"uniques":["[+2 Gold, +1 Production] for each adjacent [River]","Cannot be built on [Bonus resource] tiles","Cannot be built on [Strategic resource] tiles","Cannot be built on [Luxury resource] tiles"]
+    },
+	{
+		"name": "Huaca",
+		"uniqueTo": "Moche",
+		"terrainsCanBeBuiltOn": ["Hill"],
+        "techRequired": "Masonry",
+		"faith":2,
+		"turnsToBuild": 7,
+		"uniques":["Must be next to [Huaca]","[+1 Faith, +1 Gold] for each adjacent [Holy site]","[+2 Culture] <after discovering [Flight]>"]
+    },
+	{
+		"name": "Shabono",
+		"uniqueTo": "Yanomami",
+		"terrainsCanBeBuiltOn": ["Jungle"],
+        "techRequired": "Pottery",
+		"turnsToBuild": 7,
+		"uniques":["[+1 Culture, +4 Food] for each adjacent [Natural Wonder]"]
+    },
+	{
+		"name": "Wiltja",
+		"uniqueTo": "Anangu",
+		"terrainsCanBeBuiltOn": ["Desert"],
+        "techRequired": "Trapping",
+		"food":1,
+		"production":1,
+		"turnsToBuild": 7
+    },
+	{
+		"name": "Oven Mound",
+		"uniqueTo": "The Ngarrindjeri",
+		"terrainsCanBeBuiltOn": ["Land"],
+        "techRequired": "Agriculture",
+		"turnsToBuild": 7,
+		"food":1,
+		"culture":1,
+		"uniques":["Must be next to [River]","[+1 Culture] for each adjacent [Camp]","[+1 Culture] for each adjacent [Fishing Boats]"]
+    },
+	{
+		"name": "Foggara",
+		"uniqueTo": "The Garamantes",
+		"terrainsCanBeBuiltOn": ["Desert","Hill","Fresh Water Desert"],
+        "techRequired": "Engineering",
+		"turnsToBuild": 7,
+		"uniques":["Turn this tile into a [Fresh Water Desert] tile <after turn number [4]>","[+3 Food, +1 Gold] <after discovering [Fertilizer]>",
+"Cannot be built on [Grassland] tiles",
+"Cannot be built on [Tundra] tiles",
+"Cannot be built on [Snow] tiles",
+"Cannot be built on [Plains] tiles",
+"Cannot be built on [Flood plains] tiles"]
+    },
+	{
+		"name": "Zhai",
+		"uniqueTo": "Nanzhao",
+		"terrainsCanBeBuiltOn": ["Hill"],
+        "techRequired": "Construction",
+		"turnsToBuild": 7,
+		"faith":2,
+		"food":1
+    },
+	{
+		"name": "Tola",
+		"uniqueTo": "Upano",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
+        "techRequired": "Construction",
+		"production":1,
+		"turnsToBuild": 7,
+		"food":2,
+		"uniques":["[+1 Food] <after discovering [Fertilizer]>","[+1 Food] <after discovering [Civil Service]>"]
+    },
+	{
+		"name": "Funerary Towers",
+		"uniqueTo": "Palmyra",
+		"terrainsCanBeBuiltOn": ["Desert"],
+        "techRequired": "Construction",
+		"culture":1,
+		"turnsToBuild": 7,
+		"faith":1,
+		"uniques":["Comment [Must not be adjacent to another [Funetary Towers]]","[-1 Culture, -1 Faith] for each adjacent [Funerary Towers] <hidden from users>","[-2 Culture, -2 Gold] for each adjacent [Funerary Towers] <after discovering [Archaeology]> <hidden from users>","[+2 Culture, +2 Gold] <after discovering [Archaeology]>"]
+    },
+	{
+		"name": "Rum Distillery",
+		"uniqueTo": "The Buccaneers",
+		"terrainsCanBeBuiltOn": ["Land","Hill"],
+        "techRequired": "Machinery",
+		"food":1,
+		"turnsToBuild": 7,
+		"gold":1,
+		"uniques":["[+2 Gold] from [Sugar] tiles","Provides [1] [Rum]","[+1 Gold] <after discovering [Economics]>"]
+    },
+	{
+		"name": "Mekewap",
+		"uniqueTo": "Cree",
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Land","Hill"],
+        "techRequired": "Agriculture",
+		"uniques":["[+1 Gold, +1 Production] for each adjacent [Luxury resource]","[+1 Food] for each adjacent [Bonus resource]"]
+    },
+	{
+		"name": "Mbanza",
+		"uniqueTo": "Kongo",
+		"terrainsCanBeBuiltOn": ["Jungle","Forest"],
+        "techRequired": "Currency",
+		"food":1,
+		"turnsToBuild": 7,
+		"happiness":1,
+		"uniques":["[+2 Gold] <after discovering [Economics]>","[+1 Food, +2 Culture] <after discovering [Ecology]>"]
+    },
+	{
+		"name": "Dol Hareubang",
+		"uniqueTo": "Tamna",
+		"terrainsCanBeBuiltOn": ["Land","Hill"],
+        "techRequired": "Masonry",
+		"food":1,
+		"turnsToBuild": 7,
+		"faith":1,
+		"uniques":["Must be next to [Coast]"]
+    },
+	{
+		"name": "Rai Stone",
+		"uniqueTo": "Yap",
+		"terrainsCanBeBuiltOn": ["Land"],
+        "techRequired": "Currency",
+		"gold":2,
+		"turnsToBuild": 7,
+		"uniques":["[+2 Gold] <after discovering [Archaeology]> <when above [10] [Goods]>"]
+    },
+	{
+		"name": "Trepangers",
+		"uniqueTo": "The Yolngu",
+		"terrainsCanBeBuiltOn": ["Coast"],
+        "techRequired": "Sailing",
+		"food":1,
+		"turnsToBuild": 7,
+		"gold":1,
+		"uniques":["Provides [1] [Sea Cucumber]","Must be next to [Fishing Boats]","[+2 Science] <after discovering [Biology]>"]
+    },
+	{
+		"name": "Daaq Ah",
+		"uniqueTo": "Mogadishu",
+		"terrainsCanBeBuiltOn": ["Desert","Hill"],
+        "techRequired": "Animal Husbandry",
+		"turnsToBuild": 5,
+		"food":1,
+		"uniques":["[+1 Food] from [Fresh water] tiles","[+1 Food] from [Sheep] tiles","[+1 Food] from [Cattle] tiles"]
+    },
+	{
+		"name": "Umzi",
+		"uniqueTo": "Xhosa",
+		"terrainsCanBeBuiltOn": ["Desert","Hill"],
+        "techRequired": "Civil Service",
+		"turnsToBuild": 5,
+		"uniques":["[+2 Food] from [Cattle] tiles","Gives a defensive bonus of [25]%"]
+    },
+	{
+		"name": "Dult",
+		"uniqueTo": "Bavaria",
+		"terrainsCanBeBuiltOn": ["Land"],
+        "techRequired": "Currency",
+		"turnsToBuild": 5,
+		"happiness":1,
+		"uniques":["[+1 Gold, +1 Culture] for each adjacent [Great Improvement]"]
+    },
+	{
+		"name": "Bora Ring",
+		"uniqueTo": "Eora",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
+        "techRequired": "Agriculture",
+		"turnsToBuild": 9,
+		"culture":1,
+		"uniques":["[+1 Faith] <after discovering [Archaeology]>","[+3 Culture] <after discovering [Archaeology]>"]
+    },
+	{
+		"name": "Effigy Mound",
+		"uniqueTo": "Poverty Point",
+		"terrainsCanBeBuiltOn": ["Land"],
+        "techRequired": "Mining",
+		"turnsToBuild": 5,
+		"uniques":["[+1 Culture] <in cities connected to the capital>","[+1 Culture] <in cities with a major religion>","[+1 Production] <if [Water Mill] is constructed>"]
+    },
+	{
+		"name": "Colossal Head",
+		"uniqueTo": "The Olmecs",
+		"terrainsCanBeBuiltOn": ["Land"],
+        "techRequired": "Calendar",
+		"turnsToBuild": 5,
+		"science": 2
+       },
+	   {
+		"name": "Pochteca Enclave",
+		"uniqueTo": "Teotihuacan",
+		"terrainsCanBeBuiltOn": ["Land"],
+        "techRequired": "Currency",
+		"turnsToBuild": 5,
+		"gold":1,
+		"uniques":["[+1 Gold] for each adjacent [Luxury resource]"]
+       },
+	   {
+		"name": "Atlantean Figures",
+		"uniqueTo": "The Toltecs",
+		"terrainsCanBeBuiltOn": ["Hill"],
+        "techRequired": "Construction",
+		"turnsToBuild": 5,
+		"gold":1,
+		"culture":1
+       },
+	   {
+		"name": "Nazca Lines",
+		"uniqueTo": "Nazca",
+		"terrainsCanBeBuiltOn": ["Desert"],
+        "techRequired": "Mathematics",
+		"turnsToBuild": 5,
+		"faith":2,
+		"culture":1,
+		"uniques":["[+1 Faith] for each adjacent [Holy site]"]
+       },
+	   {
+		"name": "Noow",
+		"uniqueTo": "The Tlingit",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+        "techRequired": "Metal Casting",
+		"turnsToBuild": 9,
+		"uniques":["Can be built just outside your borders","Gain control over [all] tiles in a [1]-tile radius"]
+       },
+	   {
+		"name": "Chickee",
+		"uniqueTo": "The Seminole",
+		"terrainsCanBeBuiltOn": ["Marsh","Jungle"],
+        "techRequired": "Trapping",
+		"turnsToBuild": 5,
+		"food":1,
+		"gold":1,
+		"culture":1,
+		"uniques":["[+2 Gold] <after discovering [Ecology]>","[+2 Food] <after discovering [Ecology]>"]
+       },
+	{
+		"name": "Kura",
+		"uniqueTo": "The Emishi",
+		"terrainsCanBeBuiltOn": ["Jungle"],
+        "techRequired": "Trapping",
+		"turnsToBuild": 5,
+		"food": 1,
+		"uniques": ["[+2 Food, +2 Culture] <after discovering [Industrialization]>"]
+       },
+	{
+		"name": "Madāfin",
+		"uniqueTo": "Dilmun",
+		"terrainsCanBeBuiltOn": ["Land"],
+        "techRequired": "Agriculture",
+		"turnsToBuild": 5,
+		"uniques": ["[+1 Culture] for each adjacent [Farm]","[+1 Faith] for each adjacent [Pasture]"]
+       },
+	{
+		"name": "Research Station",
+		"uniqueTo": "Antarctica",
+		"terrainsCanBeBuiltOn": ["Snow","Tundra"],
+        "techRequired": "Scientific Theory",
+		"turnsToBuild": 5,
+		"science": 2,
+		"uniques": ["Gives a defensive bonus of [+50]%","[-2 Science] for each adjacent [Research Station]"]
+       },
+	{
+		"name": "Palatial Fortress",
+		"uniqueTo": "Judea",
+		"terrainsCanBeBuiltOn": ["Land"],
+                "techRequired": "Engineering",
+		"turnsToBuild": 10,
+		"food": 1,
+		"uniques": ["Gives a defensive bonus of [+50]%","Can be built outside your borders"]
+       },
+	{
+		"name": "Tree House",
+        "uniqueTo": "The Korowai",
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"food": 2,
+		"culture": 1,
+        "techRequired": "Construction",
+		"turnsToBuild": 4,
+		"uniques": ["Unpillagable"],
+       },
+	   {
+		"name": "Souk",
+        "uniqueTo": "Lebanon",
+		"terrainsCanBeBuiltOn": ["Desert","Plains","River"],
+		"gold": 1,
+        "techRequired": "Guilds",
+		"turnsToBuild": 4,
+		"uniques": ["[+2 Gold, +1 Production] from [Incense] tiles","[+3 Gold] from [Salt] tiles","[+2 Gold, +1 Production] from [Marble] tiles","[+3 Gold] from [Ivory] tiles","Unpillagable"],
+       },
+	{
+		"name": "Mumu",
+        "uniqueTo": "Asaro",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"food": 2,
+        "techRequired": "Pottery",
+		"turnsToBuild": 4,
+		"uniques": ["Unpillagable"],
+       },
+	{
+		"name": "Haru Oms",
+        "uniqueTo": "The Nama",
+		"terrainsCanBeBuiltOn": ["Plains"],
+		"culture": 2,
+        "techRequired": "Animal Husbandry",
+		"turnsToBuild": 6,
+		"uniques": ["Unpillagable"],
+       },
+	{
+		"name": "Hare Paenga",
+                "uniqueTo": "Rapa Nui",
+                "turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Atoll"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Removes removable features when built","[+2 Faith] for each adjacent [Coast]","[+3 Faith] for each adjacent [Bonus resource]"]
+	},
+	{
+		"name": "Mala'e",
+                "uniqueTo": "Tonga",
+                "turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Removes removable features when built","[+1 Food] for each adjacent [Coast]","[+1 Food] for each adjacent [Mala'e]","[+1 Culture] for each adjacent [Coast]"]
+	},
+	{
+		"name": "Rapa Nui Moai",
+                "uniqueTo": "Rapa Nui",
+                                        "culture": 2,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [20]%",
+			"Adjacent enemy units ending their turn take [10] damage",
+			"Can be built just outside your borders",
+        	"Gain control over [all] tiles in a [1]-tile radius",
+			"Removes removable features when built",
+		]
+	},
+	{
+		"name": "Pa",
+        "uniqueTo": "Maori",
+        "turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Great Improvement",
+			"Gives a defensive bonus of [10]%",
+			"Adjacent enemy units ending their turn take [5] damage",
+			"Removes removable features when built","[+1 Production] for each adjacent [Coast]","[+1 Gold] for each adjacent [Coast]"]
+	},
+       {
+		"name": "Motte Bailey"
+            "uniqueTo": "Normandy",
+		"terrainsCanBeBuiltOn": ["Land"],
+                "techRequired": "Engineering",
+		"turnsToBuild": 8,
+		"uniques": ["Gives a defensive bonus of [+50]%","Unpillagable","Can be built outside your borders"],
+       },
+	   {
+		"name": "Baray"
+        "uniqueTo": "Khmer",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+		"faith": 2,
+                "techRequired": "Engineering",
+		"turnsToBuild": 8,
+		"uniques": ["[-1 Food] for each adjacent [Baray]","[-2 Faith] for each adjacent [Baray]","Unpillagable"],
+       },
+	   {
+		"name": "Mawaskawe Skote"
+        "uniqueTo": "Shawnee",
+		"terrainsCanBeBuiltOn": ["Jungle","Forest","Marsh"],
+		"food": 3,
+		"gold": 1,
+                "techRequired": "Guilds",
+		"turnsToBuild": 8,
+		"uniques": ["[-3 Food] for each adjacent [Mawaskawe Skote]","[-1 Gold] for each adjacent [Mawaskawe Skote]","Unpillagable"],
+       },
+	   {
+		"name": "Kanuhses"
+        "uniqueTo": "Huron",
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"culture": 1,
+		"gold": 1,
+        "techRequired": "Trapping",
+		"turnsToBuild": 8,
+		"uniques": ["Pillaging this improvement yields approximately [+5 Gold]"],
+       },
+	   {
+		"name": "Hoxeheome"
+        "uniqueTo": "Cheyenne",
+		"terrainsCanBeBuiltOn": ["Plains"],
+		"food": 1,
+        "culture": 1,
+		"turnsToBuild": 4,
+		"techRequired": "Philosophy",
+		"uniques": ["Pillaging this improvement yields approximately [+5 Gold]"],
+	},
+       {
+		"name": "Kibbutz"
+            "uniqueTo": "State of Israel",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"food": 1,
+                "culture": 1,
+		"turnsToBuild": 4,
+		"techRequired": "Economics",
+		"uniques": ["[-1 Food] for each adjacent [Kibbutz]","[-1 Culture] for each adjacent [Kibbutz]","[+1 Food] for each adjacent [Farm]",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+	},
+       {
+		"name": "Colombian Hacienda"
+            "uniqueTo": "Gran Colombia",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
+		"food": 1,
+		"turnsToBuild": 4,
+		"techRequired": "Construction",
+		"uniques": ["[+1 Gold] for each adjacent [Luxury resource]","[+1 Production] for each adjacent [Wheat]",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+	},
+       {
+		"name": "Kotan"
+            "uniqueTo": "Ainu",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"techRequired": "Construction",
+		"uniques": ["[+1 Culture] for each adjacent [Forest]","[+1 Culture] for each adjacent [Mountain]","[+3 Culture] for each adjacent [Natural Wonder]",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+	},
+      {
+		"name": "Fjellhus"
+            "uniqueTo": "Norway",
+		"terrainsCanBeBuiltOn": ["Forest","Tundra"],
+		"gold": 1,
+                "production": 1,
+                "techRequired": "Architecture",
+		"turnsToBuild": 5,
+		"uniques": ["[+1 Culture, +1 Production] <after discovering [Flight]>","Pillaging this improvement yields approximately [+18 Gold]"],
+	},
+{
+		"name": "Mazar"
+            "uniqueTo": "The Fatimids",
+		"terrainsCanBeBuiltOn": ["Land"],
+                "faith": 2,
+                "techRequired": "Engineering",
+		"turnsToBuild": 5,
+		"uniques": ["[+1 Faith] from [Desert] tiles","[+1 Culture] from [Desert] tiles <during a Golden Age>","Pillaging this improvement yields approximately [+18 Gold]"],
+	},
+{
+		"name": "Madrasah"
+            "uniqueTo": "The Umayyads",
+		"terrainsCanBeBuiltOn": ["Desert","Plains"],
+                "faith": 1,
+                "techRequired": "Engineering",
+		"turnsToBuild": 5,
+		"uniques": ["[+1 Gold] from [Desert] tiles","[+1 Science] from [Desert] tiles <during a Golden Age>","Pillaging this improvement yields approximately [+18 Gold]"],
+	},
+{
+		"name": "Ribat"
+            "uniqueTo": "Tunisia",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 1,
+                "faith": 1,
+                "techRequired": "Engineering",
+		"turnsToBuild": 5,
+		"uniques": ["Gives a defensive bonus of [+45]%","Pillaging this improvement yields approximately [+18 Gold]"],
+	},
+      {
+		"name": "Labor Exploitation"
+            "uniqueTo": "Congo Free State",
+		"terrainsCanBeBuiltOn": ["Jungle"],
+		"production": 2,
+		"turnsToBuild": 7,
+		"techRequired": "Industrialization",
+		"uniques": [
+            "Pillaging this improvement yields approximately [+24 Gold]"],
+	},
+      {
+		"name": "Tolderia",
+        "uniqueTo": "Charrua",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+        "gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": ["Can also be built on tiles adjacent to fresh water",
+			"[+1 Gold] from [Desert] tiles <after discovering [Civil Service]>",
+            "[+1 Gold] from [Desert] tiles <after discovering [Civil Service]>",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+      {
+		"name": "Zawiya",
+        "uniqueTo": "Senussi Libya",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"faith": 1,
+            "science": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Scientific Theory",
+		"uniques": ["[+1 Faith] from [Fresh water] tiles",
+			"[+1 Science] from [non-fresh water] tiles",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+	},
+        {
+		"name": "Yereroc",
+        "uniqueTo": "The Gunditjmara",
+		"terrainsCanBeBuiltOn": ["Marsh"],
+		"production": 1,
+		"turnsToBuild": 3,
+		"techRequired": "Engineering",
+		"uniques": ["[+1 Production] from [Fresh water] tiles",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+	},
+        {
+		"name": "Potkop",
+        "uniqueTo": "Mississippian",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains"],
+		"faith": 1,
+                "science": 1,
+		"turnsToBuild": 3,
+		"techRequired": "Construction",
+		"uniques": ["[+1 Faith] from [Fresh water] tiles",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+	},
+        
+        {
+		"name": "Igloo",
+        "uniqueTo": "The Inuit",
+		"terrainsCanBeBuiltOn": ["Snow"],
+		"food": 1,
+		"turnsToBuild": 3,
+		"uniques": ["Pillaging this improvement yields approximately [+18 Gold]"],
+	},
+        {
+		"name": "Outback Station",
+        "uniqueTo": "Australia",
+		"terrainsCanBeBuiltOn": ["Desert","Plains"],
+		"production": 1,
+        "food": 1,
+		"turnsToBuild": 5,
+        "techRequired": "Economics",
+		"uniques": ["Can be built outside your borders","[+1 Food] for each adjacent [Pasture]"]
+	},
+        {
+		"name": "Tipi",
+        "uniqueTo": "The Oyate",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland"],
+		"faith": 1,
+                "food": 1,
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [20]%"],
+	},
+        {
+		"name": "Crow Tipi",
+        "uniqueTo": "Crow",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland"],
+		"culture": 2,
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", "[+2 Food] from [Fresh water] tiles", "Gives a defensive bonus of [20]%"],
+	},
+        {
+		"name": "Shoshone Tipi",
+        "uniqueTo": "Shoshone",
+		"terrainsCanBeBuiltOn": ["Plains"],
+		"culture": 2,
+		"turnsToBuild": 3,
+		"uniques": ["Can be built outside your borders", "Gives a defensive bonus of [20]%"],
+	},
+        {
+		"name": "Sanga Cow Market",
+        "uniqueTo": "Hausa",
+		"terrainsCanBeBuiltOn": ["Grassland","Plains","Desert"],
+		"turnsToBuild": 9,
+		"techRequired": "Animal Husbandry",
+		"uniques": ["[+3 Gold] from [Cattle] tiles",
+            "Pillaging this improvement yields approximately [+30 Gold]"],
+	}
+]
