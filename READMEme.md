@@ -2,6 +2,73 @@
 A long time ago, in a galaxy far, far away. Coming to the Unciv galaxy, play as Mandalore, the Sith and much more.
 In future updates, there maybe playable heroes as well. Made in Version 3.19.3
 
+
+    {
+        "name": "Humor",
+        "era": "Modern era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 10,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+1 Happiness] per [2] population [in all cities]",
+		  "Adopt [Comedic Journalism]",
+                    "Get the leader title of [Actor/Actress [leaderName]]"
+        ],
+        "policies": [
+            {
+                "name": "Comedic Journalism",
+                "uniques": [
+                    "[+2 Happiness] from every [Broadcast Tower]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Gelotology",
+                "uniques": [
+                    "[+1 Happiness] from every [Medical Lab]","[+1 Happiness] from every [Hospital]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Kabarett",
+                "uniques": [
+                    "[+2 Culture, +1 Happiness] from every [Amphitheater]","[+2 Culture, +1 Happiness] from every [Theatre]"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Political Cartoon",
+                "uniques": [
+                    "[+1 Happiness] from all [Culture] buildings <when below [-10] [Happiness]>"
+                ],
+                "row": 2,
+                "column": 1
+            },
+            {
+                "name": "Political Satire",
+                "uniques": [
+                    "[+1 Happiness] per every [8] [Culture]"
+                ],
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Humor Complete",
+                "uniques": [
+                    "[+2 Happiness, +1 Culture] per [2] population [in all cities]"
+                ]
+            }
+        ]
+    },
+	
+ss
 [
   {
 		"name": "Mandalore",
