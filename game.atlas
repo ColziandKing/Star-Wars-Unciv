@@ -9702,7 +9702,7 @@ PolicyBranchIcons/Voluntarism
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Anarchism
+PolicyIcons/Dual Crown Authority
   rotate: false
   xy: 220, 482
   size: 50, 50
@@ -9765,7 +9765,7 @@ PolicyIcons/Political Satire
   orig: 50, 50
   offset: 0, 0
   index: -1
-PolicyIcons/Self-Organization
+PolicyIcons/Syncretism
   rotate: false
   xy: 1914, 1878
   size: 50, 50
