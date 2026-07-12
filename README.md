@@ -1,4 +1,32 @@
-	{
+	
+            {
+                "name": "Self-Organization",
+                "uniques": [
+                    "[+15]% [Production] [in all cities]"
+                ],
+                "row": 3,
+                "column": 9
+            },
+			
+            {
+                "name": "Mutual Aid",
+                "uniques": [
+				"Comment [Starts with [Order] adopted]",
+				"Adopt [Order] <hidden from users>",
+				"[Great Engineer] is earned [+50]% faster",
+				"[-1 Happiness] <before the [Modern era]>"
+                ],
+                "row": 2,
+                "column": 9
+            },
+            {
+                "name": "Dual Crown Authority",
+                "uniques": ["Comment [Provides a [Palace] in your first [2] cities for free (Your second city also becomes a capital)]", "Provides a [Palace] in your first [2] cities for free <hidden from users>"
+                ],
+                "row": 1,
+                "column": 9
+            },
+			{
         "name": "Hittites",
         "leaderName": "Muwatallis",
         "adjective": ["Hittite"],
