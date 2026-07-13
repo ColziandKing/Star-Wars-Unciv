@@ -1,4 +1,21 @@
-	
+
+    "Wakan Tanka",
+    "Heros Karabazmos",
+    "Pachamama",
+    "Temaukelism",
+    "Pajelanca",
+    "Laicism",
+    "Anglican",
+    "Animism",
+    "Shia Islam",
+    "Baptist",
+    "Calvinism",
+    "Candomble",
+    "Heliolatry",
+    "Lutheran",
+    "Manaism",
+    "Shamanism",
+    "Voodoo"	
             {
                 "name": "Self-Organization",
                 "uniques": [
