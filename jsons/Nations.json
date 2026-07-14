@@ -3652,8 +3652,8 @@
 		"uniques": ["No movement cost to pillage <for [Gunpowder] units>","No movement cost to pillage <for [Helicopter] units>","No movement cost to pillage <for [Armored] units>","[+10]% [Production] [in all cities] <upon declaring friendship> <for [5] turns>","[+25]% [Production] [in all cities] <upon declaring war on [Major] Civilizations> <for [5] turns>"],
 		"cities": ["Damascus", "Aleppo", "Homs", "Latakia", "Hama", "Raqqa", "Deir ez-Zor", "Al-Hasakah", "Qamishli", "Sayyidah Zaynab", "Tartus",
 		"Douma", "Manbij", "Idlib", "Daraa", "Al-Hajar al-Aswad", "Darayya", "As-Suwayda", "Al-Thawrah", "Salamiyah", "Al-Safira", "Al-Bab", "Maarat al-Numaan"],
-        "spyNames": ["Saki"]
-    },
+        "spyNames": ["Ahmed", "Mohammad", "Ali", "Omar", "Ibrahim", "Rami", "Samir", "Hassan", "Fadi", "Nour"],
+	},
 	{
 		"name": "Germania",
 		"leaderName": "Arminius",
@@ -4735,81 +4735,6 @@
 		"spyNames": ["Saki"]
 	},
 	{
-		"name": "Romania",
-		"leaderName": "Carol I",
-		"adjective": ["Romania"],
-		"startBias":["Forest"],
-		"preferredVictoryType": "Domination",
-	
-	
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-	
-				"declaringWar": "We cannot tolerate you anymore",
-		"attacked": "The war has hardened us, but it has not broken us",
-		"defeated": "This cannot happen!",
-		"introduction": "Welcome to our land",
-		"neutralHello": "Hello.",
-		"hateHello": "We do not fear war",
-		"tradeRequest": "Check out this",
-		"outerColor": [23, 33, 31],
-		"innerColor": [255, 155, 74],
-		"uniqueName": "Nihil sine Deo",
-		"uniques": ["[+2 Faith] from all [Culture] buildings"],
-		"cities": ["Bucharest", "Cluj-Napoca", "Iași", "Constanța", "Timișoara", "Brașov", "Craiova", "Galați", "Oradea", "Ploiești", "Brăila", "Arad", "Pitești", "Bacău"],
-		"spyNames": ["Saki"]
-	},
-	{
-		"name": "Canada",
-		"leaderName": "Wilfrid Laurier",
-		"adjective": ["Canada"],
-		"startBias":["Tundra"],
-		"preferredVictoryType": "Domination",
-	
-	
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-	
-				"declaringWar": "We cannot tolerate you anymore",
-		"attacked": "The war has hardened us, but it has not broken us",
-		"defeated": "This cannot happen!",
-		"introduction": "Welcome to our land",
-		"neutralHello": "Hello.",
-		"hateHello": "We do not fear war",
-		"tradeRequest": "Check out this",
-		"outerColor": [255, 255, 255],
-		"innerColor": [168, 0, 0],
-		"uniqueName": "The Last Best West",
-		"uniques": ["[+2 Food] in cities on [Tundra] tiles","[+1 Food] from [Tundra] tiles [in all cities]","[+1 Production, +2 Gold] from [Deer] tiles [in all cities]"],
-		"cities": ["Ottawa", "Toronto", "Montreal", "Halifax", "Winnipeg", "Vancouver", "Quebec City", "Calgary", "Edmonton", "Mississauga", "Brampton", "Hamilton", "Surrey"],
-		"spyNames": ["Saki"]
-	},
-	{
-		"name": "The Papal States",
-		"leaderName": "Pius IX",
-		"adjective": ["The Papal States"],
-		"startBias":["Grassland"],
-		"preferredVictoryType": "Domination",
-	
-	
-		"startIntroPart1": "",
-		"startIntroPart2": "",
-	
-				"declaringWar": "We cannot tolerate you anymore",
-		"attacked": "The war has hardened us, but it has not broken us",
-		"defeated": "This cannot happen!",
-		"introduction": "Welcome to our land",
-		"neutralHello": "Hello.",
-		"hateHello": "We do not fear war",
-		"tradeRequest": "Check out this",
-		"outerColor": [150, 15, 15],
-		"innerColor": [255, 255, 255],
-		"uniqueName": "Apostolic See",
-		"uniques": ["[1] free [Great Prophet] units appear","[+1] Movement <for [Missionary] units>","[+1] Movement <for [Inquisitor] units>","[+1] Movement <for [Great Prophet] units>","Provides [1] [Relic]"],
-		"cities": ["Rome", "Benevento", "Pontecorvo", "Ascoli", "Castel Gandolfo", "Avignon", "Ravenna", "Bologna", "Ferrara", "Civitavecchia", "Perugia"],
-		"spyNames": ["Saki"]
-	},
-	{
 		"name": "Palmyra",
 		"leaderName": "Zenobia",
 		"adjective": ["Palmyra"],
@@ -4857,8 +4782,8 @@
 		"uniqueName": "Sawey",
 		"uniques": ["[+35]% [Gold] [in annexed cities] <when above [5] [Goods]>","[+85]% [Gold] [in puppeted cities] <when above [3] [Goods]>","Instantly provides [1] [Goods] <upon declaring friendship>"],
 		"cities": ["Gachpar", "Wanyaan", "Colonia", "Maap", "Kanif", "Bugol", "Rumung", "Baleabat'", "Bechyal", "Dinaey", "Gaqnaqun", "Maaq"],
-		"spyNames": ["Saki"]
-	},
+	"cities": ["Gachpar", "Wanyaan", "Colonia", "Maap", "Kanif", "Bugol", "Rumung", "Baleabat", "Bechyal", "Dinaey", "Gaqnaqun", "Maaq", "Mal'Aay", "Ruun'Uw", "Magachgil", "Ngariy", "Ngoof", "Wanead"],
+},
 	{
 		"name": "The Yolngu",
 		"leaderName": "Wonggu Mununggurr",
