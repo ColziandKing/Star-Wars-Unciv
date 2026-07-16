@@ -1,4 +1,9 @@
+"[+25]% Strength <when fighting in [Jungle] tiles>"
 
+	"[+25]% of excess happiness converted to [Production] <in [in all cities connected to capital] cities>",
+					"Rebel units may spawn <when below [0] [Happiness]>",
+					"[+1 Production] from all [Production] buildings <after discovering [Replaceable Parts]>", 
+					"[+2 Production] from [Manufactory] tiles [in all cities] <within [1] tiles of a [City center]>"
     "Wakan Tanka",
     "Heros Karabazmos",
     "Pachamama",
