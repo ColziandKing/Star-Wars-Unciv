@@ -1821,6 +1821,19 @@
 		"uniques": ["Comment [+2 Scientist slot]","Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
 	{
+		"name": "Coral Stone Mosque",
+		"uniqueTo": "The Maldives",
+		"replaces": "Temple",
+		"faith": 2,
+		"culture":1,
+		"happiness":1,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
+	},
+	{
 		"name": "Posuban",
 		"uniqueTo": "Ashanti",
 		"replaces": "Arsenal",

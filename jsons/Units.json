@@ -524,6 +524,20 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Kilosh",
+		"uniqueTo": "The Modoc",
+		"replaces": "Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+		"uniques":["[+25]% Strength <when fighting in [Rough terrain] tiles>","Earn [50]% of killed [Wounded] unit's [Cost] as [Culture]"],
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	},
+	{
 		"name": "Laz Corsair",
 		"uniqueTo": "Trebizond",
 		"replaces": "Galleass",
@@ -2768,6 +2782,19 @@
 		"hurryCostModifier": 20
 	},
 	{
+		"name": "Okichitaw",
+		"uniqueTo": "Cree",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 8,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["[-100]% maintenance costs","Comment [Starts with 20 XP]","May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Sovereign Order",
 		"uniqueTo": "Cyprus",
 		"replaces": "Knight",
@@ -3873,6 +3900,21 @@
 		"uniques": ["[This Unit] heals [5] HP <upon ending a turn in a [Jungle] tile> <during We Love The King Day>",
 		"[This Unit] heals [5] HP <upon ending a turn in a [Forest] tile> <during We Love The King Day>","Double movement in [Jungle]","Double movement in [Forest]","Can build [Fort] improvements on tiles","[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
 		"attackSound": "shot"
+	},
+	{
+		"name": "Guard of the Rock",
+		"uniqueTo": "San Marino",
+		"replaces": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 19,
+		"cost": 120,
+		"uniques":["[1] additional attacks per turn"],
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "crossbow"
 	},
 	{
 		"name": "Kommando",
@@ -6214,6 +6256,20 @@
 		"attackSound": "horse"
 	},
 {
+		"name": "Rediff Infantry",
+                "uniqueTo": "Turkiye",
+		"replaces": "Rifleman",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+                "uniques": ["[+25]% Strength decreasing with distance from the capital","[+30]% to Flank Attack bonuses"],
+		"obsoleteTech": "Replaceable Parts",
+		"upgradesTo": "Great War Infantry",
+		"attackSound": "shot"
+	},
+{
 		"name": "Javanese Archer",
                 "uniqueTo": "Banten",
 		"replaces": "Archer",
@@ -6269,6 +6325,21 @@
 		"uniques": ["[+15]% Strength <when fighting in [Tundra] tiles> <when attacking>","[+15]% Strength <when fighting in [Forest] tiles> <when attacking>","May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
+	},
+{
+		"name": "Paladin",
+                "uniqueTo": "The Franks",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 25,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["[+20]% Strength <during a Golden Age>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
 	},
 {
 		"name": "Yoruk",
@@ -6440,6 +6511,36 @@
 		"upgradesTo": "Cavalry",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>","Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "camel"
+	},
+{
+		"name": "Thirisadai",
+                "uniqueTo": "Chola",
+		"replaces": "Galleass",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 22,
+		"cost": 180,
+		"requiredTech": "Compass",
+		"obsoleteTech": "Navigation",
+		"upgradesTo": "Frigate",
+		"uniques": ["[+25]% Strength <vs [Galleass] units>","Cannot enter ocean tiles"],
+		"attackSound": "arrow"
+	},
+{
+		"name": "Urumi Swordsman",
+                "uniqueTo": "Chola",
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 78,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+                "uniques": ["[1] additional attacks per turn"],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	},
 {
 		"name": "Ayruzdi",
