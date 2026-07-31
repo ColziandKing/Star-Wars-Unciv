@@ -10,6 +10,55 @@ BuildingIcons/Imperial Fullysia
   orig: 100, 100
   offset: 0, 0
   index: -1
+PolicyIcons/Bird Watching Center
+  rotate: false
+  xy: 694, 1004
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Communal Hut
+  rotate: false
+  xy: 1126, 1004
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Cosmodrome
+  rotate: false
+  xy: 1774, 1004
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Ecclesiastic Court
+  rotate: false
+  xy: 1558, 788
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Public House
+  rotate: false
+  xy: 794, 1860
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+PolicyIcons/Religious Studies
+  rotate: false
+  xy: 1742, 1860
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+PolicyIcons/Sheriff's Office
+  rotate: false
+  xy: 162, 596
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
 
 game.png
 size: 2048, 2048
