@@ -24,14 +24,14 @@ PolicyIcons/Communal Hut
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Cosmodrome
+BuildingIcons/Aerospace Terminal 
   rotate: false
   xy: 1774, 1004
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Ecclesiastic Court
+BuildingIcons/Ecclesiastic Judicature 
   rotate: false
   xy: 1558, 788
   size: 100, 100
