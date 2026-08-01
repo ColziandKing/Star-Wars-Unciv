@@ -10,7 +10,7 @@ BuildingIcons/Imperial Fullysia
   orig: 100, 100
   offset: 0, 0
   index: -11
-PolicyIcons/Athens
+PolicyIcons/Clandestine Operation
   rotate: false
   xy: 910, 1436
   size: 100, 100
@@ -24,9 +24,16 @@ PolicyIcons/Bhutan
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Comanche
+PolicyIcons/Subversion
   rotate: false
   xy: 976, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Great Viet
+  rotate: false
+  xy: 1882, 182
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
