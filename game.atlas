@@ -9,15 +9,36 @@ BuildingIcons/Imperial Fullysia
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
+  index: -11
+PolicyIcons/Athens
+  rotate: false
+  xy: 910, 1436
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
   index: -1
-PolicyIcons/Bird Watching Center
+PolicyIcons/Bhutan
+  rotate: false
+  xy: 694, 1112
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+PolicyIcons/Comanche
+  rotate: false
+  xy: 976, 32
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Bird Watching Center
   rotate: false
   xy: 694, 1004
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Communal Hut
+BuildingIcons/Communal Hut
   rotate: false
   xy: 1126, 1004
   size: 100, 100
@@ -38,21 +59,21 @@ BuildingIcons/Ecclesiastic Judicature
   orig: 100, 100
   offset: 0, 0
   index: -1
-PolicyIcons/Public House
+BuildingIcons/Public House
   rotate: false
   xy: 794, 1860
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
-PolicyIcons/Religious Studies
+BuildingIcons/Religious Studies
   rotate: false
   xy: 1742, 1860
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
-PolicyIcons/Sheriff's Office
+BuildingIcons/Sheriff's Office
   rotate: false
   xy: 162, 596
   size: 150, 150
