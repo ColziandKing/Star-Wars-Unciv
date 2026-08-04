@@ -3,7 +3,7 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Imperial Fullysia
+PolicyIcons/Imperial Fullysia
   rotate: false
   xy: 1126, 1436
   size: 100, 100
